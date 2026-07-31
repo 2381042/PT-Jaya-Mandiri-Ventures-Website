@@ -47,6 +47,8 @@ const BrandShowcase: React.FC = () => {
                 <img 
                   src={AGIOO_LOGO} 
                   alt="Agioo Radiator Coolant Logo" 
+                  loading="lazy"
+                  decoding="async"
                   className="max-h-full max-w-full object-contain transition-transform group-hover:scale-105"
                 />
               </div>
@@ -99,6 +101,8 @@ const BrandShowcase: React.FC = () => {
                 <img 
                   src={MIZUX_LOGO} 
                   alt="Mizu-X Autocare Logo" 
+                  loading="lazy"
+                  decoding="async"
                   className="max-h-full max-w-full object-contain transition-transform group-hover:scale-105"
                 />
               </div>
@@ -151,6 +155,8 @@ const BrandShowcase: React.FC = () => {
                 <img 
                   src={BIOLUMINEX_LOGO} 
                   alt="Bio Luminex Logo" 
+                  loading="lazy"
+                  decoding="async"
                   className="max-h-full max-w-full object-contain transition-transform group-hover:scale-105"
                 />
               </div>

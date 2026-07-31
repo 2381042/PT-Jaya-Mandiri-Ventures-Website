@@ -40,6 +40,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onClick }) => {
         <img 
           src={product.imageUrl} 
           alt={product.name} 
+          loading="lazy"
+          decoding="async"
           className="max-h-full max-w-full object-contain drop-shadow-md group-hover:scale-110 transition-transform duration-700 ease-out"
         />
 

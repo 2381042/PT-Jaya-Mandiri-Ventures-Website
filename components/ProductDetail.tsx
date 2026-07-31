@@ -47,6 +47,8 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product, onBack }) => {
               <img 
                 src={selectedImage} 
                 alt={product.name} 
+                loading="lazy"
+                decoding="async"
                 className="max-h-full max-w-full object-contain drop-shadow-xl transition-all duration-500 hover:scale-105"
               />
               
